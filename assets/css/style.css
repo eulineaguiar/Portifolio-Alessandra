@@ -1,49 +1,49 @@
 :root {
   --bg-gradient-onyx: linear-gradient(
     to bottom right,
-    hsl(340, 100%, 95%) 3%, /* Novo Rosa Pastel Claro */
-    hsl(340, 100%, 90%) 97%
+    #ffe5ee 3%,
+    #fce4ec 97%
   );
   --bg-gradient-jet: linear-gradient(
       to bottom right,
-      hsla(340, 100%, 90%, 0.251) 0%, /* Novo Rosa Pastel Claro */
-      hsla(340, 100%, 85%, 0) 100%
+      #ffccdd40 0%,
+      #ffb3cc00 100%
     ),
-    hsl(340, 100%, 85%);
+    #fce4ec;
   --bg-gradient-yellow-1: linear-gradient(
     to bottom right,
-    hsl(45, 100%, 71%) 0%,
-    hsla(36, 100%, 69%, 0) 50%
+    #ffda6b 0%,
+    #ffc06100 50%
   );
   --bg-gradient-yellow-2: linear-gradient(
       135deg,
       hsla(45, 100%, 71%, 0.251) 0%,
       hsla(35, 100%, 68%, 0) 59.86%
     ),
-    hsl(340, 100%, 85%);
+    #fce4ec;
   --border-gradient-onyx: linear-gradient(
     to bottom right,
-    hsl(340, 100%, 90%) 0%, /* Novo Rosa Pastel Claro */
-    hsla(340, 100%, 90%, 0) 50%
+    #fce4ec 0%,
+    #ffccdd00 50%
   );
   --text-gradient-yellow: linear-gradient(
     to right,
-    hsl(45, 100%, 72%),
-    hsl(35, 100%, 68%)
+    #ffdb70,
+    #ffbb5c
   );
 
-  --jet: hsl(340, 100%, 85%);
-  --onyx: hsl(340, 100%, 90%);
-  --eerie-black-1: hsl(340, 100%, 85%);
-  --eerie-black-2: hsl(340, 100%, 80%);
-  --smoky-black: hsl(340, 100%, 75%);
-  --white-1: hsl(0, 0%, 0%);
-  --white-2: hsl(0, 0%, 2%);
-  --orange-yellow-crayola: hsl(45, 100%, 72%);
-  --vegas-gold: hsl(45, 54%, 58%);
-  --light-gray: hsl(0, 0%, 84%);
-  --light-gray-70: hsla(0, 0%, 84%, 0.7);
-  --bittersweet-shimmer: hsl(0, 43%, 51%);
+  --jet: #fce4ec;
+  --onyx: #fce4ec;
+  --eerie-black-1: #fce4ec;
+  --eerie-black-2: #fce4ec;
+  --smoky-black: #ff80aa;
+  --white-1: #000000;
+  --white-2: #050505;
+  --orange-yellow-crayola: #ffdb70;
+  --vegas-gold: #ceb15a;
+  --light-gray: #d6d6d6;
+  --light-gray-70: #d6d6d6b3;
+  --bittersweet-shimmer: #b84c4c;
 
   --ff-poppins: "Poppins", sans-serif;
   --fs-1: 24px;
@@ -423,7 +423,7 @@ main {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: #FFB3CC;
+  background: #fce4ec;
   backdrop-filter: blur(10px);
   border: 1px solid var(--jet);
   border-radius: 12px 12px 0 0;
@@ -452,7 +452,7 @@ main {
 }
 
 .navbar-link.active {
-  color:#ff216b;
+  color:#FF80AA;
 }
 
 .about-text {
@@ -734,7 +734,7 @@ main {
   left: -30px;
   width: 1px;
   height: calc(100% + 50px);
-  background: var(--jet);
+  background-color: #000;
 }
 
 .timeline-item::after {
@@ -744,7 +744,7 @@ main {
   left: -33px;
   height: 6px;
   width: 6px;
-  background: var(--text-gradient-pink);
+  background-color: #000;
   border-radius: 50%;
   box-shadow: 0 0 0 4px var(--jet);
 }
@@ -788,7 +788,7 @@ main {
 }
 
 .skill-progress-fill {
-  background: #ff216b;
+  background: #FF80AA;
   height: 100%;
   border-radius: inherit;
 }
@@ -914,7 +914,7 @@ main {
   --scale: 0.8;
 
   background: var(--jet);
-  color: var(--orange-yellow-crayola);
+  color: #FF80AA;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -966,6 +966,25 @@ main {
   font-weight: var(--fw-300);
 }
 
+@media (max-width: 430px) and (max-height: 932px) {
+  .avatar-box {
+    top: 20px;
+    width: 20%;
+    height: auto;
+    max-width: 344px;
+    max-height: 745px;
+  }
+
+  .avatar-box img {
+    width: 80%;
+    height: auto; /* Mantém a proporção da imagem */
+  }
+
+  .info-content .title {
+   position: center;
+  }
+}
+
 @media (min-width: 450px) {
 
   .clients-item {
@@ -985,7 +1004,7 @@ main {
     --fs-4: 18px;
     --fs-6: 15px;
     --fs-7: 15px;
-    --fs-8: 12px;
+    --fs-8: 15px;
   }
 
   .sidebar,
@@ -1031,6 +1050,7 @@ main {
     width: 100%;
     height: auto;
     object-fit: cover;
+    top: 50px;
   }
 
   .info-content .name {
