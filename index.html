@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portifólio - Alessandra Aguiar</title>
+    <link
+      rel="icon"
+      href="./assets/images/coração.png"
+      type="Ícone"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <main>
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/aleh.png"
+              alt="Alessandra Aguiar"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Alessandra Aguiar">Alessandra Aguiar</h1>
+
+            <p class="title">Designer Gráfica
+            </p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span> Mostrar Contatos</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list" style="display: none;">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">E-mail</p>
+
+                <a
+                  href="mailto:alessandraguiar@outlook.com"
+                  class="contact-link"
+                  >alessandraguiar@outlook.com</a
+                >
+              </div>
+            </li>
+            <br>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Celular</p>
+
+                <a href="tel:+551197166-5503" class="contact-link"
+                  >(11) 97166-5503</a
+                >
+              </div>
+            </li>
+            <br>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Data de Nascimento</p>
+
+                <time datetime="27/10/1995">27/10/1995</time>
+              </div>
+            </li>
+            <br>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Endereço</p>
+                <address>
+                  Av. Paulo Brossard, 1480, Jardim Vassouras - Francisco Morato
+                  - SP 07957-000
+                </address>
+              </div>
+            </li>
+          </ul>
+          <br>
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/alessandraguiar/"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://www.behance.net/alessandraguiar"
+                class="social-link"
+              >
+                <i class="fab fa-behance"></i>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://www.instagram.com/alessandragui4r?igsh=d2NtZHVlaXdlOTdp"
+                class="social-link"
+              >
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <div class="main-content">
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>Sobre</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Currículo</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portifólio</button>
+            </li>
+          </ul>
+        </nav>
+
+        <article class="about active" data-page="sobre">
+          <header>
+            <h2 class="h2 article-title">Sobre Mim</h2>
+          </header>
+          <br>
+          <section class="about-text">
+            <p>
+              Tenho 28 anos, sou graduada em comunicação social com habilitação
+              em jornalismo, e trabalho com Design Gráfico, sou uma pessoa
+              dedicada, com facilidade em aprender e trabalhar em grupo. Tenho
+              como hobby ler, fotografar, realizar trabalhos voluntários e
+              patinar.
+            </p>
+          </section>
+
+          <section class="service">
+            <h3 class="h3 service-title">Meu Trabalho</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                  src="./assets/images/design-grafico.png"
+                  alt="camera icon"
+                  width="40"
+                />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Design Gráfico</h4>
+
+                  <p class="service-item-text">
+                    Eu crio artes de alta qualidade em qualquer categoria, com
+                    nível profissional.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/camera-fotografica.png"
+                    alt="camera icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Fotografia</h4>
+
+                  <p class="service-item-text">
+                    Eu faço fotos de alta qualidade em qualquer categoria, com
+                    nível profissional.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <section class="clients">
+            <h3 class="h3 clients-title">Clientes</h3>
+
+            <ul class="clients-list has-scrollbar">
+              <li class="clients-item">
+                <a href="#">
+                  <img src="./assets/images/Queridog.png" alt="client logo" />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/associação.jpeg"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/iara_supermercados.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img src="./assets/images/Ambientec.png" alt="client logo" />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/Agnaldo_Vidali.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <article class="resume" data-page="currículo">
+          <header>
+            <h2 class="h2 article-title">Currículo</h2>
+          </header>
+          <br>
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+              <h3 class="h3">Educação</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Universidade Cruzeiro do Sul
+                </h4>
+                <h4 class="h4 timeline-item-title">
+                  Bacharel em Design Gráfico
+                </h4>
+                <span>(2020 - trancado)</span>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Unifaccamp
+                </h4>
+                <h4 class="h4 timeline-item-title">
+                  Bacharel em Comunicação Social Habilitação em Jornalismo
+                </h4>
+                <span>(12/2017)</span>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experiências</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Lojas Marabraz
+                </h4>
+                <h4 class="h4 timeline-item-title">
+                  Assistente de Arte
+                </h4>
+                <span>02/23 - Atual</span>
+
+                <p class="timeline-text">
+                  Criação e Design de conteúdo, artes para mídias onlines e
+                  offline; Edição de vídeos e pequenas animações, criações de
+                  logotipos e etc.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Click Code</h4>
+                <h4 class="h4 timeline-item-title">Designer</h4>
+
+                <span>03/22 - 12/2022</span>
+
+                <p class="timeline-text">
+                  Criação e Design de conteúdo, artes para mídias onlines,
+                  offline e sites; Edição de vídeos e pequenas animações,
+                  criações de logotipos e etc.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  NYCX Publicidade e Propaganda
+                </h4>
+                <h4 class="h4 timeline-item-title">
+                  Assistente de Arte
+                </h4>
+
+                <span>06/21 - 02/22</span>
+
+                <p class="timeline-text">
+                  Criação e Design de conteúdo, artes para mídias onlines,
+                  offline e sites, criações de logotipos, edições de vídeos,
+                  diagramações de livros, álbuns e etc.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  FLUA Story
+                </h4>
+                <h4 class="h4 timeline-item-title">
+                  Criação / Designer Jr.
+                </h4>
+
+                <span>03/21- 05/21</span>
+
+                <p class="timeline-text">
+                  Criação e Design de conteúdo e Artes para mídias onlines,
+                  offline e sites.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">AME Publicidade</h4>
+                <h4 class="h4 timeline-item-title">Criação / Designer Jr.</h4>
+
+                <span>11/20 - 02/21</span>
+
+                <p class="timeline-text">
+                  Criação e Design de conteúdo e Artes 
+                  para mídias online, offline e sites; Agendamento e 
+                  monitoramento das redes sociais dos clientes.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">Programas</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Pacote Office</h5>
+                  <data value="80">100%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">InDesign</h5>
+                  <data value="70">100%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Photoshop</h5>
+                  <data value="90">100%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">After Efects</h5>
+                  <data value="50">100%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Lightroom</h5>
+                  <data value="50">100%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">CorelDrawn</h5>
+                  <data value="50">100%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Illustrator</h5>
+                  <data value="50">100%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Premiere</h5>
+                  <data value="50">100%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <article class="portfolio" data-page="portifólio">
+          <header>
+            <h2 class="h2 article-title">Portifólio</h2>
+          </header>
+
+            <div class="filter-select-box">
+              </button>
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>Projetos</button>
+                </li>
+            </div>
+            <br>
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://www.behance.net/gallery/119134037/Social-Media">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/QueridogPortifólio.png"
+                      alt="Queridog"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Queridog</h3>
+
+                  <p class="project-category">Social Media</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://www.behance.net/gallery/119134037/Social-Media">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/IaraSupermercadosPortifólio.png"
+                      alt="orizon"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Iara Supermercados</h3>
+
+                  <p class="project-category">Social Media</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="https://www.behance.net/gallery/119134037/Social-Media">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/FratelliPortifólio.png"
+                      alt="fundo"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Fratelli</h3>
+
+                  <p class="project-category">Social Media</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+    <script src="./assets/js/script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
