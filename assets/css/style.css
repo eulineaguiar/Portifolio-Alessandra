@@ -665,7 +665,7 @@ main {
 }
 
 .clients-list::-webkit-scrollbar-track {
-  background: #000;
+  background: gray;
 }
 
 .clients-list::-webkit-scrollbar-thumb {
@@ -791,21 +791,6 @@ main {
   width: 50px;
   height: 50px;
   object-fit: cover;
-}
-
-.select-item button {
-  background: var(--eerie-black-2);
-  color: var(--light-gray);
-  font-size: var(--fs-6);
-  font-weight: var(--fw-300);
-  text-transform: capitalize;
-  width: 100%;
-  padding: 8px 10px;
-  border-radius: 8px;
-}
-
-.select-item button:hover {
-  --eerie-black-2: hsl(240, 2%, 20%);
 }
 
 .project-list {
@@ -1121,6 +1106,23 @@ main {
     margin: 0 -30px;
     padding: 45px;
     scroll-padding-inline: 45px;
+  }
+
+  .clients-list::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  .clients-list::-webkit-scrollbar-track {
+    background: gray;
+  }
+  
+  .clients-list::-webkit-scrollbar-thumb {
+    background: #fce4ec;
+    border-radius: 10px;
+  }
+  
+  .clients-list::-webkit-scrollbar-thumb:hover {
+    background: #fce4ec;
   }
 
   .clients-item {
