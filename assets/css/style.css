@@ -669,12 +669,12 @@ main {
 }
 
 .clients-list::-webkit-scrollbar-thumb {
-  background: black;
+  background: #FF80AA;
   border-radius: 10px;
 }
 
 .clients-list::-webkit-scrollbar-thumb:hover {
-  background: black;
+  background: #FF80AA;
 }
 
 .clients-item {
@@ -1117,12 +1117,12 @@ main {
   }
   
   .clients-list::-webkit-scrollbar-thumb {
-    background: black;
+    background: #FF80AA;
     border-radius: 10px;
   }
   
   .clients-list::-webkit-scrollbar-thumb:hover {
-    background: black;
+    background: #FF80AA;
   }
 
   .clients-item {
